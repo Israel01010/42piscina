@@ -6,7 +6,7 @@
 /*   By: itorrico <itorrico@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 11:36:50 by itorrico          #+#    #+#             */
-/*   Updated: 2022/04/20 12:51:34 by itorrico         ###   ########.fr       */
+/*   Updated: 2022/04/21 18:48:43 by itorrico         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include<stdio.h>
@@ -20,7 +20,7 @@ char	*ft_strlowcase(char *str)
 	dif = 'a' - 'A';
 	while (*(str + i) != '\0')
 	{
-		if (str[i] > 'A' && str[i] < 'Z')
+		if (str[i] >= 'A' && str[i] <= 'Z')
 		{
 			str[i] += dif;
 		}

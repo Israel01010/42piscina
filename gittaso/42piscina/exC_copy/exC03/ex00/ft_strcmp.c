@@ -6,7 +6,7 @@
 /*   By: itorrico <itorrico@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/20 13:15:08 by itorrico          #+#    #+#             */
-/*   Updated: 2022/04/20 13:43:03 by itorrico         ###   ########.fr       */
+/*   Updated: 2022/04/21 16:56:54 by itorrico         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_strcmp(char *s1, char *s2)

@@ -6,7 +6,7 @@
 /*   By: itorrico <itorrico@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 15:37:21 by itorrico          #+#    #+#             */
-/*   Updated: 2022/04/20 12:35:34 by itorrico         ###   ########.fr       */
+/*   Updated: 2022/04/21 18:37:31 by itorrico         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
@@ -32,5 +32,6 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 		*(dest + index) = *(src + index);
 		index++;
 	}
+	dest[index] = '\0';
 	return (dest);
 }

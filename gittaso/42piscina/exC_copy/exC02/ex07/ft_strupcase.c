@@ -6,11 +6,9 @@
 /*   By: itorrico <itorrico@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/14 16:53:52 by itorrico          #+#    #+#             */
-/*   Updated: 2022/04/20 12:50:26 by itorrico         ###   ########.fr       */
+/*   Updated: 2022/04/21 18:48:19 by itorrico         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<stdio.h>
-
 char	*ft_strupcase(char *str)
 {
 	int	i;
@@ -18,9 +16,9 @@ char	*ft_strupcase(char *str)
 
 	i = 0;
 	dif = 'a' - 'A';
-	while (*(str + i) != '\0')
+	while (str[i] != '\0')
 	{
-		if (str[i] > 'a' && str[i] < 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			str[i] -= dif;
 		}

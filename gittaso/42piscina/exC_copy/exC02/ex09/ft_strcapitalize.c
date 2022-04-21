@@ -6,11 +6,9 @@
 /*   By: itorrico <itorrico@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 11:44:19 by itorrico          #+#    #+#             */
-/*   Updated: 2022/04/20 12:56:45 by itorrico         ###   ########.fr       */
+/*   Updated: 2022/04/21 18:52:08 by itorrico         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<stdio.h>
-
 char	*ft_strcapitalize(char *str)
 {
 	int	i;
@@ -25,7 +23,7 @@ char	*ft_strcapitalize(char *str)
 		i++;
 	}
 	i = 1;
-	while (*(str + i) != '\0')
+	while (str[i] != '\0')
 	{
 		if (((str[i - 1] <= 'Z' && str[i - 1] > 'A')
 				|| (str[i - 1] <= '9' && str[i - 1] >= '0')
